@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         Aerfaying-Hook
+// @namespace    https://mikoto.net.cn
+// @version      1.0.0
+// @description  A hook for aerfaying
+// @author       Mikoto https://mikoto.net.cn
+// @match        *://aerfaying.com/*
+// @icon         https://mikoto.net.cn/favicon.ico
+// @grant        none
+// ==/UserScript==
 let hookXhrOpen = XMLHttpRequest.prototype.open;
 let hookXhrSrh = XMLHttpRequest.prototype.setRequestHeader;
 
